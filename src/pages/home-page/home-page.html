@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      HomePage
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1">
+  <button id="homePage-button1" ion-button color="positive" block>
+    <ion-icon name="disc"></ion-icon>
+    Tap me!
+  </button>
+  <form id="homePage-form1">
+    <ion-item id="homePage-input1">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Enter street address"></ion-input>
+    </ion-item>
+  </form>
+  <div id="homePage-markdown1" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      <strong>
+        {{ data.latlng }}
+      </strong>
+    </p>
+  </div>
+</ion-content>
